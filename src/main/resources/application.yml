@@ -1,0 +1,8 @@
+spring:
+  rsocket:
+    server:
+      port: 7000
+      transport: TCP
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/rsocket
